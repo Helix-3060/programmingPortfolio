@@ -4,6 +4,10 @@
 
 ### Calculator 2026
 
+![Calculator2026](https://github.com/Helix-3060/programmingPortfolio/blob/main/images/calc2026.png?raw=true)
+
+[Link to Source Code](https://github.com/Helix-3060/programmingPortfolio/tree/main/src/Calculator)
+
 ## Overview
 OOP Calculator using Processing for graphics and java for computer Programming. 
 
@@ -42,7 +46,3 @@ and actual result.]
 
 ## Next Step
 [Name the specific behavior you will build or fix next.]
-
-![Calculator2026](https://github.com/Helix-3060/programmingPortfolio/blob/main/images/calc2026.png?raw=true)
-
-[Link to Source Code](https://github.com/Helix-3060/programmingPortfolio/tree/main/src/Calculator)
