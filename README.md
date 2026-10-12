@@ -5,16 +5,17 @@
 ### Calculator 2026
 
 ## Overview
-[Write 2–3 sentences explaining what you are building
-and what a user can do with it.]
+OOP Calculator using Processing for graphics and java for computer Programming. 
 
 ## Current Status
 Working:
-- [A feature you have tested]
-- [Another feature you have tested]
+- Using the keyboard instead of clicking the buttons works!
+- Using the mouse also works!
 
 Still in progress:
-- [A requirement you are finishing]
+- multiple operators returns a NaN.
+- Negatives.
+- Multiple decimals sadly work, but return NaN.
 
 ## How to Run
 Built with Processing.
