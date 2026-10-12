@@ -23,17 +23,16 @@ Still in progress:
 
 ## How to Run
 Built with Processing.
-Processing version: [Your version]
+Processing version: 4.0.1
 
-To run the Calculator App, you must download both [Calculator.pde](https://github.com/Helix-3060/programmingPortfolio/blob/main/src/Calculator/Calculator.pde), and [Button.pde](https://github.com/Helix-3060/programmingPortfolio/blob/main/src/Calculator/Button.pde)
+To run the Calculator App, you must download both [Calculator.pde](https://github.com/Helix-3060/programmingPortfolio/blob/main/src/Calculator/Calculator.pde), and [Button.pde](https://github.com/Helix-3060/programmingPortfolio/blob/main/src/Calculator/Button.pde) after completing this step, you simply have to open Calculator.pde and click run.
 
 ## Controls
 Mouse:
-[Explain how to use the buttons.]
+To enter a equation, all you have to do is hover over the desired button, and press the left mouse button, for example if I want 1+1, then I hover over 1 and press then + then 1, and finnaly I press the equal sign.
 
 Keyboard:
-[List keys that currently work and what they do.
-Identify planned controls as not yet implemented.]
+1, 2, 3, 4, 5, 6, 7, 8, 9, 0, +, -, x or *, /, c, = all except the ones on the number pad, I believe
 
 ## Project Files
 [Identify the main sketch and other tabs or assets
