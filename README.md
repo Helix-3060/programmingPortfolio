@@ -25,8 +25,7 @@ Still in progress:
 Built with Processing.
 Processing version: [Your version]
 
-[After the project files are uploaded, identify the
-project folder and main .pde file to open and run.]
+To run, open the calculator folder 
 
 ## Controls
 Mouse:
