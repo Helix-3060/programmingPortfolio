@@ -4,6 +4,7 @@ String displayEquation;
 float l, r, result;
 char op;
 
+int sizeBasedOnLength = 10;
 int numberButtons = 22;
 Button[] nums = new Button[numberButtons];
 char[] numbers = new char[numberButtons];
@@ -83,17 +84,16 @@ void draw() {
 }
 
 void updateDisplay() {
-  // 110 pixels wide
-  // 20 pixels long
-
   // background shape
   rectMode(CENTER);
-  /*
-  fill(#112042);
-   rect(50 + (7 % 3) * 30, 150 - (12 / 3)*30, 110, 20, 8);*/
   // overlay text
   fill(255);
-  textSize(15);
+  textSize(14);
+  if (displayVal.length()>10) {textSize(12);}
+  if (displayVal.length()>14) {textSize(10);}
+  if (displayVal.length()>18) {textSize(8);}
+  if (displayVal.length()>22) {textSize(6);}
+  if (displayVal.length()>10) {textSize(12);}
   text(displayVal, 50 + (7 % 3) * 30, 150 - (12 / 3)*30);
 }
 
@@ -117,6 +117,7 @@ void keyTyped() {
   for (int i = 0; i < nums.length; i++) {
     if (key == ENTER) {
       nums[i].performCalculation();
+      return;
     } else if (key == 'c' || key == 'C' && nums[i].isNum == false && keyPressed == false) {
       displayEquation = "";
       displayVal = "0.0";
