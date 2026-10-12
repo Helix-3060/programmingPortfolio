@@ -25,7 +25,7 @@ Still in progress:
 Built with Processing.
 Processing version: [Your version]
 
-To run, open the calculator folder 
+To run the Calculator App, you must download both (Calculator.pde)[https://github.com/Helix-3060/programmingPortfolio/blob/main/src/Calculator/Calculator.pde], and (Button.pde)[https://github.com/Helix-3060/programmingPortfolio/blob/main/src/Calculator/Button.pde] 
 
 ## Controls
 Mouse:
