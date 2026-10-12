@@ -52,9 +52,7 @@ class Button {
       // for example 1+1, first loop the positon of 1 = 0, second loop 1, third loop, 2
       println("position: " + i + " character: " + c);
       // found out that || is or, good info if needed later.
-      if (c == '+' || c == '-' || c == 'x' || c == '/' || c == '%' || c == '^' || c == 'R' || c == 'r') { // checks to see if the char is an operator
-        
-        
+      if (c == '+' || c == '-' || c == 'x' || c == '/' || c == '%' || c == '^' || c == 'R' || c == 'r' || c == '*') { // checks to see if the char is an operator
         amountOfOperators += 1;
         if (amountOfOperators >= 2) {operatorPos = i; op = c;}// hmm what to add here?
           else if (amountOfOperators < 2) {operatorPos = i; op = c;}
@@ -86,7 +84,7 @@ class Button {
 
     if (op == '+') {result = l + r;} 
       else if (op == '-') {result = l - r;} 
-      else if (op == 'x') {result = l * r;} 
+      else if (op == 'x' || op == '*') {result = l * r;} 
       else if (op == '/') {
       if (r == 0) {println("Cannot divide by zero"); return;} result = l / r;} 
       else if (op == '%') {result = l % r;} 
