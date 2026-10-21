@@ -35,12 +35,10 @@ Keyboard:
 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, +, -, x or *, /, c, = all except the ones on the number pad, I believe
 
 ## Project Files
-[Identify the main sketch and other tabs or assets
-you will upload.]
+
 
 ## Testing
-[Record one test: actions, expected result,
-and actual result.]
+inserted equation: 1+1, expected: 2, result: 2
 
 ## Next Step
-[Name the specific behavior you will build or fix next.]
+The next big step for this project is to allow multiple operators,
