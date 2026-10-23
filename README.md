@@ -35,7 +35,7 @@ Keyboard:
 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, +, -, x or *, /, c, = all except the ones on the number pad, I believe
 
 ## Project Files
-
+[Button.pde](https://github.com/Helix-3060/programmingPortfolio/blob/main/src/Calculator/Button.pde), [Calculator.pde](https://github.com/Helix-3060/programmingPortfolio/blob/main/src/Calculator/Calculator.pde)
 
 ## Testing
 inserted equation: 1+1, expected: 2, result: 2
